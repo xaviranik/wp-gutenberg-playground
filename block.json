@@ -1,0 +1,10 @@
+{
+  "apiVersion": 2,
+  "name": "xvr/wp-gp",
+  "title": "Wp Gutenberge Playground",
+  "description": "Wp Gutenberg block development playground",
+  "category": "text",
+  "icon": "format-status",
+  "textdomain": "wp-gp",
+  "editorScript": "file:./index.js"
+}

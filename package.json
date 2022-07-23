@@ -1,35 +1,26 @@
 {
-  "name": "wp-gutenberg-playground",
-  "version": "1.0.0",
-  "description": "Wp Gutenberg block development playground",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xaviranik/wp-gutenberg-playground.git"
-  },
-  "author": "Zabir Anik",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/xaviranik/wp-gutenberg-playground/issues"
-  },
-  "homepage": "https://github.com/xaviranik/wp-gutenberg-playground#readme",
-  "devDependencies": {
-    "@wordpress/blocks": "^11.12.0",
-    "@wordpress/scripts": "^23.5.0"
-  },
-  "scripts": {
-    "build": "wp-scripts build",
-    "check-engines": "wp-scripts check-engines",
-    "check-licenses": "wp-scripts check-licenses",
-    "format": "wp-scripts format",
-    "lint:css": "wp-scripts lint-style",
-    "lint:js": "wp-scripts lint-js",
-    "lint:md:docs": "wp-scripts lint-md-docs",
-    "lint:pkg-json": "wp-scripts lint-pkg-json",
-    "packages-update": "wp-scripts packages-update",
-    "plugin-zip": "wp-scripts plugin-zip",
-    "start": "wp-scripts start",
-    "test:e2e": "wp-scripts test-e2e",
-    "test:unit": "wp-scripts test-unit-js"
-  }
+	"name": "wp-gp",
+	"version": "0.1.0",
+	"description": "Example static block scaffolded with Create Block tool.",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/block-editor": "^9.4.0",
+		"@wordpress/blocks": "^11.11.0",
+		"@wordpress/components": "^19.14.0",
+		"@wordpress/scripts": "^23.5.0"
+	},
+	"dependencies": {
+		"@wordpress/i18n": "^4.13.0"
+	}
 }

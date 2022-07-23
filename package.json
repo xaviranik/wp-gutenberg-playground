@@ -8,6 +8,10 @@
 	"stylelint": {
 		"extends": "@wordpress/stylelint-config/scss"
 	},
+  	"lint-staged": {
+	  	"*.js": "wp-scripts lint:js",
+	  	"*.css": "wp-scripts lint:css"
+	},
 	"scripts": {
 		"build": "wp-scripts build",
 		"format": "wp-scripts format",

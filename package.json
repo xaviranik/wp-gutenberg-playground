@@ -10,7 +10,7 @@
 	},
   	"lint-staged": {
 	  	"*.js": ["wp-scripts lint:js", "npm run format:js"],
-	  	"*.css": ["wp-scripts lint:css", "npm run format:css" ]
+	  	"*.scss": ["wp-scripts lint:css", "npm run format:css" ]
 	},
 	"scripts": {
 		"build": "wp-scripts build",
